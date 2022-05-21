@@ -12,6 +12,21 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.acv.buycoffee.ui.theme.BuyCoffeeTheme
 
+
+/*
+https://nodejs.org/en/download/
+npm install truffle -g
+truffle version
+
+truffle init
+truffle compile
+truffle migrate
+truffle test
+
+
+ */
+
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
