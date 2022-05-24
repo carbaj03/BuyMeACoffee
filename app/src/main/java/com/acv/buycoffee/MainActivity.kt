@@ -23,6 +23,12 @@ truffle compile
 truffle migrate
 truffle test
 
+Create Smart Contract
+
+cd ..
+web3j generate truffle --truffle-json=BuyCoffee/build/contracts/BuyMeACoffee.json --outputDir BuyCoffee/app/src/main/java -p com.acv.buycoffee
+
+cd BuyCoffee
 
  */
 
@@ -30,6 +36,7 @@ truffle test
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContent {
             BuyCoffeeTheme {
                 // A surface container using the 'background' color from the theme
